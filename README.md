@@ -119,23 +119,6 @@ src/
 - Validate the product API response
 - Validate the shipping form
 
-## Cart Calculation Rules
-
-- Tax: **5% of subtotal**
-- Discount: **10% when subtotal is greater than $100**
-- Final Total: **Subtotal + Tax - Discount**
-- Minimum checkout value: **$10**
-- Maximum quantity per product: **5**
-- Minimum quantity per product: **1**
-
-## Known Limitations
-
-- Products are provided by the DummyJSON public API.
-- No backend database is used.
-- No real payment gateway is integrated.
-- Orders are simulated.
-- Cart persistence is limited to browser localStorage.
-
 ## Repository
 
 GitHub:
